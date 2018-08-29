@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.facebook.drawee.view.DraweeView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        fresco:actualImageScaleType="centerCrop"
+        fresco:fadeDuration="3000"
+        fresco:failureImage="@mipmap/ic_launcher"
+        fresco:failureImageScaleType="centerCrop"
+        fresco:placeholderImage="@mipmap/ic_launcher"
+        fresco:placeholderImageScaleType="centerCrop"
+        fresco:progressBarAutoRotateInterval="1000"
+        fresco:progressBarImage="@mipmap/ic_launcher"
+        fresco:progressBarImageScaleType="centerCrop"
+        fresco:retryImage="@mipmap/ic_launcher"
+        fresco:retryImageScaleType="centerCrop"
+        fresco:backgroundImage="@mipmap/ic_launcher"
+        fresco:overlayImage="@mipmap/a"
+        fresco:pressedStateOverlayImage="@mipmap/ic_launcher"
+        fresco:roundAsCircle="true"
+        fresco:roundedCornerRadius="5dip"
+        fresco:roundTopLeft="true"
+        fresco:roundTopRight="true"
+        fresco:roundBottomLeft="true"
+        fresco:roundBottomRight="true"
+        fresco:roundWithOverlayColor="@color/colorAccent"
+        fresco:roundingBorderWidth="2dip"
+        fresco:roundingBorderColor="@color/colorPrimary"
+        fresco:viewAspectRatio="3"/>
+
+
+</android.support.constraint.ConstraintLayout>
